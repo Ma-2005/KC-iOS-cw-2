@@ -14,7 +14,7 @@ struct ContentView: View {
             Image("MA")
                 .resizable()
                 .ignoresSafeArea()
-            
+               
             VStack{
                 
                 HStack{
@@ -49,7 +49,8 @@ struct ContentView: View {
                 Spacer()
              
                 Text("توقيت الصلاة القادمة 3:38 am")
-                    .font(.system(size: 33, weight: .black, design: .serif))
+                    .font(.system(size: 33, weight: .black, design:
+                         .serif))
                     .foregroundColor(.white)
                 Spacer()
                 
